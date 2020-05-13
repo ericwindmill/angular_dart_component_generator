@@ -1,0 +1,38 @@
+<idea-plugin>
+    <id>com.brasstacks.angular_dart_generator</id>
+    <name>AngularDart Component Generator</name>
+    <vendor email="hello@ericwindmill.com" url="http://www.ericwindmill.com">Brass Tacks</vendor>
+
+    <description><![CDATA[
+    Generate all files for an angular dart component. <br>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.java</depends>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="ComponentActionGroup"
+               text="Component Generator"
+               description="AngularDart component templates"
+               popup="true">
+            <add-to-group
+                    group-id="NewGroup"
+                    relative-to-action="NewGroup"
+                    anchor="after"/>
+            <action class="com.brasstacks.angular_dart_generator.action.GenerateComponentAction"
+                    description="Generate a new component"
+                    id="GenerateComponentId"
+                    text="New Component"/>
+
+        </group>
+    </actions>
+</idea-plugin>
