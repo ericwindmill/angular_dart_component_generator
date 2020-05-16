@@ -6,7 +6,6 @@ plugins {
 intellij { plugins = ['java'] }
 
 group 'com.brasstacks'
-version '1.0-SNAPSHOT'
 
 apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
@@ -38,9 +37,4 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
-}
-patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
 }

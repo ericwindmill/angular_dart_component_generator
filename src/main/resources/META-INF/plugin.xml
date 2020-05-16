@@ -1,15 +1,11 @@
 <idea-plugin>
-    <id>com.brasstacks.angular_dart_generator</id>
     <name>AngularDart Component Generator</name>
+    <id>com.brasstacks.angular_dart_generator</id>
+    <description>Generate HTML, SCSS, and Dart boiler plate for an AngularDart component.</description>
+    <version>1.0.1</version>
+    <change-notes>Initial release of the AngularDart Component Generator.</change-notes>
     <vendor email="hello@ericwindmill.com" url="https://www.ericwindmill.com">Brass Tacks</vendor>
-    <version>1.0.0</version>
-    <change-notes>
-        Initial version of the AngularDart Component Generator.
-    </change-notes>
 
-    <description><![CDATA[
-    Generate HTML, SCSS, and Dart boiler plate for an AngularDart component..
-    ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
