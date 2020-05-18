@@ -2,7 +2,7 @@
     <name>AngularDart Component Generator</name>
     <id>com.brasstacks.angular_dart_generator</id>
     <description>Generate HTML, SCSS, and Dart boiler plate for an AngularDart component.</description>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <change-notes>Initial release of the AngularDart Component Generator.</change-notes>
     <vendor email="hello@ericwindmill.com" url="https://www.ericwindmill.com">Brass Tacks</vendor>
 
