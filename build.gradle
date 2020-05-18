@@ -6,6 +6,7 @@ plugins {
 intellij { plugins = ['java'] }
 
 group 'com.brasstacks'
+version '1.0.1'
 
 apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'java'
